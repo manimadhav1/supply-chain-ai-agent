@@ -89,3 +89,363 @@ record_id,record_type,sku,document
 88,comparison,Fanta500,Fanta500 sells 4.3% more than Sprite500.
 89,comparison,Fanta500,Fanta500 sells 5.9% more than ThumsUp500.
 90,comparison,Sprite500,Sprite500 sells 1.5% more than ThumsUp500.
+91,product_master,SKU-001,"
+        Product Colgate Total Toothpaste 200g
+        belongs to category Personal Care
+        and sub-category Oral Care.
+
+        Unit cost is ₹35.
+        Selling price is ₹75.
+
+        Lead time is 7 days.
+        Minimum order quantity is 500.
+
+        Reorder point is 200.
+        Safety stock is 100.
+
+        Shelf life is 730 days.
+
+        Margin band is High.
+        "
+92,product_master,SKU-002,"
+        Product Surf Excel Matic 1kg
+        belongs to category Home Care
+        and sub-category Detergents.
+
+        Unit cost is ₹120.
+        Selling price is ₹210.
+
+        Lead time is 10 days.
+        Minimum order quantity is 300.
+
+        Reorder point is 150.
+        Safety stock is 75.
+
+        Shelf life is 1095 days.
+
+        Margin band is Medium.
+        "
+93,product_master,SKU-003,"
+        Product Maggi 2-Min Noodles 12pk
+        belongs to category Food
+        and sub-category Instant Food.
+
+        Unit cost is ₹85.
+        Selling price is ₹145.
+
+        Lead time is 5 days.
+        Minimum order quantity is 600.
+
+        Reorder point is 300.
+        Safety stock is 150.
+
+        Shelf life is 365 days.
+
+        Margin band is Medium.
+        "
+94,product_master,SKU-004,"
+        Product Lays Classic Chips 26g
+        belongs to category Snacks
+        and sub-category Chips.
+
+        Unit cost is ₹10.
+        Selling price is ₹20.
+
+        Lead time is 3 days.
+        Minimum order quantity is 1000.
+
+        Reorder point is 500.
+        Safety stock is 250.
+
+        Shelf life is 180 days.
+
+        Margin band is Medium.
+        "
+95,product_master,SKU-005,"
+        Product Tropicana Orange Juice 1L
+        belongs to category Beverages
+        and sub-category Juices.
+
+        Unit cost is ₹65.
+        Selling price is ₹120.
+
+        Lead time is 4 days.
+        Minimum order quantity is 400.
+
+        Reorder point is 200.
+        Safety stock is 100.
+
+        Shelf life is 60 days.
+
+        Margin band is Medium.
+        "
+96,product_master,SKU-006,"
+        Product Horlicks 500g
+        belongs to category Health & Nutrition
+        and sub-category Malt Drinks.
+
+        Unit cost is ₹180.
+        Selling price is ₹295.
+
+        Lead time is 8 days.
+        Minimum order quantity is 250.
+
+        Reorder point is 100.
+        Safety stock is 50.
+
+        Shelf life is 730 days.
+
+        Margin band is Medium.
+        "
+97,product_master,SKU-007,"
+        Product Dettol Handwash 200ml
+        belongs to category Personal Care
+        and sub-category Hygiene.
+
+        Unit cost is ₹55.
+        Selling price is ₹95.
+
+        Lead time is 6 days.
+        Minimum order quantity is 500.
+
+        Reorder point is 250.
+        Safety stock is 125.
+
+        Shelf life is 1095 days.
+
+        Margin band is Medium.
+        "
+98,product_master,SKU-008,"
+        Product Britannia Good Day 120g
+        belongs to category Snacks
+        and sub-category Biscuits.
+
+        Unit cost is ₹25.
+        Selling price is ₹45.
+
+        Lead time is 3 days.
+        Minimum order quantity is 800.
+
+        Reorder point is 400.
+        Safety stock is 200.
+
+        Shelf life is 270 days.
+
+        Margin band is Medium.
+        "
+99,product_master,SKU-009,"
+        Product Amul Butter 500g
+        belongs to category Dairy
+        and sub-category Butter.
+
+        Unit cost is ₹220.
+        Selling price is ₹275.
+
+        Lead time is 2 days.
+        Minimum order quantity is 200.
+
+        Reorder point is 150.
+        Safety stock is 75.
+
+        Shelf life is 30 days.
+
+        Margin band is Low.
+        "
+100,product_master,SKU-010,"
+        Product Red Bull Energy 250ml
+        belongs to category Beverages
+        and sub-category Energy Drinks.
+
+        Unit cost is ₹90.
+        Selling price is ₹150.
+
+        Lead time is 7 days.
+        Minimum order quantity is 400.
+
+        Reorder point is 200.
+        Safety stock is 100.
+
+        Shelf life is 730 days.
+
+        Margin band is Medium.
+        "
+101,product_master,SKU-011,"
+        Product Dove Soap Bar 100g
+        belongs to category Personal Care
+        and sub-category Soap.
+
+        Unit cost is ₹40.
+        Selling price is ₹75.
+
+        Lead time is 6 days.
+        Minimum order quantity is 600.
+
+        Reorder point is 300.
+        Safety stock is 150.
+
+        Shelf life is 1095 days.
+
+        Margin band is Medium.
+        "
+102,product_master,SKU-012,"
+        Product Parle-G Biscuits 800g
+        belongs to category Snacks
+        and sub-category Biscuits.
+
+        Unit cost is ₹35.
+        Selling price is ₹55.
+
+        Lead time is 3 days.
+        Minimum order quantity is 700.
+
+        Reorder point is 350.
+        Safety stock is 175.
+
+        Shelf life is 270 days.
+
+        Margin band is Medium.
+        "
+103,product_master,SKU-013,"
+        Product Kurkure Masala 90g
+        belongs to category Snacks
+        and sub-category Chips.
+
+        Unit cost is ₹15.
+        Selling price is ₹28.
+
+        Lead time is 3 days.
+        Minimum order quantity is 900.
+
+        Reorder point is 450.
+        Safety stock is 225.
+
+        Shelf life is 180 days.
+
+        Margin band is Medium.
+        "
+104,product_master,SKU-014,"
+        Product Tata Salt 1kg
+        belongs to category Grocery
+        and sub-category Salt.
+
+        Unit cost is ₹20.
+        Selling price is ₹28.
+
+        Lead time is 5 days.
+        Minimum order quantity is 1000.
+
+        Reorder point is 400.
+        Safety stock is 200.
+
+        Shelf life is 1825 days.
+
+        Margin band is Low.
+        "
+105,product_master,SKU-015,"
+        Product Clinic Plus Shampoo 340ml
+        belongs to category Personal Care
+        and sub-category Hair Care.
+
+        Unit cost is ₹95.
+        Selling price is ₹165.
+
+        Lead time is 7 days.
+        Minimum order quantity is 400.
+
+        Reorder point is 200.
+        Safety stock is 100.
+
+        Shelf life is 1095 days.
+
+        Margin band is Medium.
+        "
+106,product_master,SKU-016,"
+        Product Vim Dishwash Bar 250g
+        belongs to category Home Care
+        and sub-category Dishwash.
+
+        Unit cost is ₹18.
+        Selling price is ₹30.
+
+        Lead time is 5 days.
+        Minimum order quantity is 800.
+
+        Reorder point is 400.
+        Safety stock is 200.
+
+        Shelf life is 730 days.
+
+        Margin band is Medium.
+        "
+107,product_master,SKU-017,"
+        Product Sunflower Oil 1L
+        belongs to category Grocery
+        and sub-category Edible Oil.
+
+        Unit cost is ₹130.
+        Selling price is ₹175.
+
+        Lead time is 6 days.
+        Minimum order quantity is 350.
+
+        Reorder point is 175.
+        Safety stock is 90.
+
+        Shelf life is 365 days.
+
+        Margin band is Low.
+        "
+108,product_master,SKU-018,"
+        Product Fortune Basmati Rice 5kg
+        belongs to category Grocery
+        and sub-category Rice.
+
+        Unit cost is ₹280.
+        Selling price is ₹380.
+
+        Lead time is 8 days.
+        Minimum order quantity is 200.
+
+        Reorder point is 100.
+        Safety stock is 50.
+
+        Shelf life is 730 days.
+
+        Margin band is Low.
+        "
+109,product_master,SKU-019,"
+        Product Nestlé KitKat 4-Finger
+        belongs to category Snacks
+        and sub-category Chocolate.
+
+        Unit cost is ₹30.
+        Selling price is ₹55.
+
+        Lead time is 5 days.
+        Minimum order quantity is 600.
+
+        Reorder point is 300.
+        Safety stock is 150.
+
+        Shelf life is 365 days.
+
+        Margin band is Medium.
+        "
+110,product_master,SKU-020,"
+        Product Gillette Fusion Razor
+        belongs to category Personal Care
+        and sub-category Grooming.
+
+        Unit cost is ₹250.
+        Selling price is ₹425.
+
+        Lead time is 10 days.
+        Minimum order quantity is 200.
+
+        Reorder point is 100.
+        Safety stock is 50.
+
+        Shelf life is 1825 days.
+
+        Margin band is Medium.
+        "
