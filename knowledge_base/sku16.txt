@@ -1,0 +1,97 @@
+================================================================================
+GLOBAL SUPPLY CHAIN DOCUMENTATION
+STANDARD OPERATING PROCEDURE (SOP) & SUPPLIER AGREEMENT ADDENDUM
+================================================================================
+
+PRODUCT SKU: Vim Dishwash Bar 250g (ID: SKU-016)
+PRODUCT PROFILE: Chemical & Fragrance Integrity Rules (Home Care - Dishwash)
+DISTRIBUTION HUB: Hyderabad Regional Distribution Center (RDC)
+STANDARD LOGISTICS LEAD TIME: 5 business days (Ex-Works Supplier Plant to Hyderabad RDC)
+REGIONAL ENVIRONMENTAL VULNERABILITY: High Risk of Seasonal Disruption
+
+***
+
+1. LOGISTICS & DISTRIBUTION CONTRACT:
+
+This section outlines the primary guidelines for all logistics and distribution partners involved in the supply of Vim Dishwash Bar 250g to the Hyderabad Regional Distribution Center (RDC). Adherence to these guidelines is critical for maintaining cleaning block firmness, preventing moisture melting inside outer wrappers, and blocking soap aroma cross-contamination into food goods.
+
+1.1. Primary Supplier Guidelines:
+    a. Product Specification: All deliveries must consist solely of Vim Dishwash Bar 250g as per internal product code SKU-016.
+    b. Standard Lead Time: The agreed standard logistics lead time is 5 business days from the official Purchase Order (PO) confirmation to successful delivery at the Hyderabad RDC.
+    c. Delivery Schedule: Deliveries must adhere to the pre-scheduled delivery windows communicated by the Hyderabad RDC inbound logistics team. Any deviation requires prior approval.
+    d. Chemical Isolation & Temperature Control: Product must be transported in segregated logistics units isolated from any edible items or beverage boxes. Transit cargo area temperatures must be kept below 32°C (89.6°F) to prevent high-heat wrapper cracking, soap paste softening, and volatile oil fragrance migration.
+    e. Quality Assurance: Upon receipt, product will undergo visual inspection for structural bar crumbling, moisture wrapper tearing, and scent bleeding. Any discrepancies will be documented and reported to the supplier within 24 hours.
+    f. Documentation: All shipments must be accompanied by accurate packing lists, delivery challans, and product material safety data sheets (MSDS).
+
+1.2. Logistics Buffers for Hyderabad Region:
+    In recognition of the Hyderabad region's high environmental vulnerability, specific adjustments to logistics buffers are mandatory under defined conditions:
+    a. Trigger Conditions:
+        i. Temperature Peaks: When the Indian Meteorological Department (IMD) or an equivalent accredited regional weather authority issues an advisory forecasting sustained ambient temperatures above 38°C (100.4°F) for Hyderabad and its surrounding transit routes for more than 24 hours.
+        ii. Extreme Weather Events: When the IMD or equivalent authority issues warnings for heavy rainfall (monsoon season), flooding, cyclones, or severe thunderstorms impacting Hyderabad or major transit corridors leading to it.
+    b. Increased Buffer Actions (Supplier & Logistics Partner Responsibilities):
+        i. Extended Lead Time: An additional one (1) business day buffer must be automatically applied to the standard lead time, extending it to 6 business days. This allows for potential transit delays and re-routing.
+        ii. Vehicle Specification: All transport vehicles must be fully enclosed, watertight, dry box containers equipped with active passive air vents to eliminate internal humidity traps that can dissolve exposed bar surfaces.
+        iii. Pre-cooling/Staging: Product must be staged in a dry, ventilated internal warehouse area prior to vehicle loading.
+        iv. Communication Frequency: Logistics partners must increase communication frequency with the Hyderabad RDC inbound team, providing hourly updates on shipment status, GPS location, and any encountered delays.
+        v. Route Prioritization: Logistics partners are required to utilize primary, well-maintained arterial routes known for resilience during adverse weather, even if slightly longer.
+
+***
+
+2. REGIONAL RISK FACTOR:
+
+The Hyderabad region, while a critical distribution hub, presents distinct environmental and demand-related challenges that specifically alter fulfillment capacity for Vim Dishwash Bar 250g. Understanding these risks is crucial for proactive supply chain management.
+
+2.1. Climate Profile and Local Disruptions:
+    a. Monsoon Season (Typically June - September):
+        i. Road Network Impact: Intense, prolonged rainfall can lead to severe waterlogging, flash floods, and damage to road infrastructure, particularly on secondary routes. This directly impacts transit times from supplier plants and last-mile delivery to retail outlets.
+        ii. Vehicle Mobility: Reduced visibility for drivers, increased risk of breakdowns, and traffic slowdowns degrade delivery efficiency.
+        iii. Labor Availability: Heavy rains disrupt warehouse labor commutes, affecting inbound pallet handling workflows.
+        iv. Product Integrity Risk: High relative humidity leads to corrugated master case weakening, causing boxes to compress and directly squeezing internal bar wrappers, resulting in product deformity.
+    b. Peak Summer Demand & Temperatures (Typically April - June):
+        i. Elevated Demand: Hyderabad experiences extremely hot summers, triggering high domestic dish cleaning and sanitation cycles. This places high replenishment pressures on the RDC stocks.
+        ii. Supply Chain Strain: Increased demand coincides with ambient temperatures frequently exceeding 40°C (104°F). Under long heat exposure, structural binders can leak out of the bar body, causing wrapper sticking.
+        iii. Logistics Challenges: High temperatures elevate mechanical breakdown risks across vehicle transport fleets.
+        iv. Congestion: Urban traffic gridlock slows down regional logistics loops.
+
+2.2. Alteration of Fulfillment Capacity:
+    These regional vulnerabilities directly reduce the effective fulfillment capacity for Vim Dishwash Bar 250g through:
+    a. Reduced On-Time Delivery (OTD): Increased transit times and operational delays inevitably lead to lower OTD rates to the RDC and onward to retailers.
+    b. Higher Stockout Risk: The combination of increased seasonal sanitation demand and potential moisture caking rejection significantly elevates stockout risk.
+    c. Increased Operational Costs: Contingency measures such as expedited shipping, separate non-food vehicles, or increased buffer stock inherently raise logistics and warehousing costs.
+    d. Quality Compliance Risk: Prolonged exposure to non-optimal humidity can compromise chemical composition and structure, potentially leading to returns or brand reputation damage.
+
+***
+
+3. CONTINGENCY STRATEGY:
+
+This section defines the emergency procurement actions to be initiated if safety stock levels for Vim Dishwash Bar 250g at the Hyderabad RDC drop critically due to unforeseen disruptions or demand spikes.
+
+3.1. Critical Safety Stock Trigger:
+    Emergency procurement actions will be triggered when the available safety stock of Vim Dishwash Bar 250g at the Hyderabad RDC falls below 5 days of projected sales demand AND the next scheduled inbound shipment is confirmed to be delayed beyond its standard 5-day lead time. This threshold represents an immediate threat to service levels and requires rapid intervention.
+
+3.2. Emergency Procurement Actions:
+    Upon activation of the Critical Safety Stock Trigger, the following hierarchical actions will be implemented:
+
+    a. Tier 1: Intra-Regional Stock Transfer (First Priority - within 24 hours):
+        i. Authorization: Regional Supply Chain Manager (Hyderabad) with immediate notification to National Logistics Head.
+        ii. Action: Identify nearest approved RDCs with surplus stock of Vim Dishwash Bar 250g. Initiate immediate transfer via dedicated, expedited truck.
+        iii. Logistics: Prioritize carriers with proven emergency response capabilities. Secure appropriate ventilated or protected vehicles to minimize transit time and maintain product quality.
+        iv. Cost Protocol: Expedited freight costs for Tier 1 actions are to be logged against the designated emergency budget code: EMER-BUD-SKU-016.
+
+    b. Tier 2: Expedited Procurement from Primary Supplier (If Tier 1 is insufficient or infeasible - within 48 hours):
+        i. Authorization: National Logistics Head and Procurement Director.
+        ii. Action: Engage primary supplier for an emergency production run (if feasible) or expedited dispatch from their finished goods inventory. Request for a 1-2 business day lead time.
+        iii. Logistics: Mandate dedicated, non-stop ground transport (team drivers) as necessary.
+        iv. Cost Protocol: Expedited production/freight premiums associated with Tier 2 actions require explicit approval from the Procurement Director and are subject to detailed cost-benefit analysis post-event.
+
+    c. Tier 3: Third-Party/Alternative Supplier Sourcing (Last Resort - within 72 hours):
+        i. Authorization: Executive Leadership (VP Supply Chain, VP Procurement).
+        ii. Action: Engage pre-vetted and approved third-party suppliers or alternative manufacturing sites capable of producing Vim Dishwash Bar 250g to our specifications.
+        iii. Due Diligence: Rigorous compliance evaluations regarding chemical and scent parameters must be expedited.
+        iv. Cost Protocol: Sourcing from Tier 3 suppliers often incurs significantly higher costs and requires executive-level approval due to potential impact on long-term supplier relationships and higher unit costs.
+
+3.3. Communication and Reporting:
+    a. Immediate Alert: The Hyderabad RDC Manager must immediately inform the Regional Supply Chain Manager, National Logistics Head, and relevant Sales & Marketing teams upon trigger activation.
+    b. Daily Updates: A daily incident report detailing stock levels, incoming shipment ETAs, and actions taken must be circulated to the executive supply chain team until safety stock levels are restored to normal operating parameters (7+ days of supply).
+    c. Post-Event Analysis: A comprehensive Root Cause Analysis (RCA) must be conducted within 7 business days of stock normalization to identify the underlying reasons for the critical drop and recommend preventative measures or SOP updates.
+================================================================================

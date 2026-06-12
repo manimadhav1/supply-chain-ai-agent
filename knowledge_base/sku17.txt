@@ -1,0 +1,97 @@
+================================================================================
+GLOBAL SUPPLY CHAIN DOCUMENTATION
+STANDARD OPERATING PROCEDURE (SOP) & SUPPLIER AGREEMENT ADDENDUM
+================================================================================
+
+PRODUCT SKU: Sunflower Oil 1L (ID: SKU-017)
+PRODUCT PROFILE: Moisture & Pest Barrier Protocols (Grocery - Edible Oil)
+DISTRIBUTION HUB: Hyderabad Regional Distribution Center (RDC)
+STANDARD LOGISTICS LEAD TIME: 6 business days (Ex-Works Supplier Plant to Hyderabad RDC)
+REGIONAL ENVIRONMENTAL VULNERABILITY: High Risk of Seasonal Disruption
+
+***
+
+1. LOGISTICS & DISTRIBUTION CONTRACT:
+
+This section outlines the primary guidelines for all logistics and distribution partners involved in the supply of Sunflower Oil 1L to the Hyderabad Regional Distribution Center (RDC). Adherence to these guidelines is critical for maintaining PET bottle sealing stability, preventing lipid oxidation from solar heat exposure, and meeting retail service targets.
+
+1.1. Primary Supplier Guidelines:
+    a. Product Specification: All deliveries must consist solely of Sunflower Oil 1L as per internal product code SKU-017.
+    b. Standard Lead Time: The agreed standard logistics lead time is 6 business days from the official Purchase Order (PO) confirmation to successful delivery at the Hyderabad RDC.
+    c. Delivery Schedule: Deliveries must adhere to the pre-scheduled delivery windows communicated by the Hyderabad RDC inbound logistics team. Any deviation requires prior approval.
+    d. Thermal Protection & Sealing Controls: Product must be transported under dry ambient conditions shielded from intense solar radiation. Internal van transit heat levels must not cross 35°C (95°F) to eliminate corporate PET bottle micro-softening and avoid structural leakage around plastic snap caps under fluctuating transit air pressures.
+    e. Quality Assurance: Upon receipt, product will undergo inspection for box oil staining, carton collapse, and seal integrity defects. Any discrepancies will be documented and reported to the supplier within 24 hours.
+    f. Documentation: All shipments must be accompanied by accurate packing lists, delivery challans, and relevant agricultural food safety certificates.
+
+1.2. Logistics Buffers for Hyderabad Region:
+    In recognition of the Hyderabad region's high environmental vulnerability, specific adjustments to logistics buffers are mandatory under defined conditions:
+    a. Trigger Conditions:
+        i. Temperature Peaks: When the Indian Meteorological Department (IMD) or an equivalent accredited regional weather authority issues an advisory forecasting sustained ambient temperatures above 38°C (100.4°F) for Hyderabad and its surrounding transit routes for more than 24 hours.
+        ii. Extreme Weather Events: When the IMD or equivalent authority issues warnings for heavy rainfall (monsoon season), flooding, cyclones, or severe thunderstorms impacting Hyderabad or major transit corridors leading to it.
+    b. Increased Buffer Actions (Supplier & Logistics Partner Responsibilities):
+        i. Extended Lead Time: An additional one (1) business day buffer must be automatically applied to the standard lead time, extending it to 7 business days. This allows for potential transit delays and re-routing.
+        ii. Vehicle Specification: All transport vehicles must be fully enclosed, verified watertight, rigid steel-box trucks. Vehicles must contain anti-slip pallet floor locks to prevent multi-ton oil pallets from moving during emergency braking over wet infrastructure.
+        iii. Staging Protocols: Product must be staged inside deeply shaded warehouse corridors. Vehicles fully loaded with oil must not be left parked in unshaded yard sectors during seasonal temperature highs.
+        iv. Communication Frequency: Logistics partners must increase communication frequency with the Hyderabad RDC inbound team, providing hourly updates on shipment status, GPS location, and any encountered delays.
+        v. Route Prioritization: Logistics partners are required to utilize primary, well-maintained arterial routes known for resilience during adverse weather, even if slightly longer.
+
+***
+
+2. REGIONAL RISK FACTOR:
+
+The Hyderabad region, while a critical distribution hub, presents distinct environmental and demand-related challenges that specifically alter fulfillment capacity for Sunflower Oil 1L. Understanding these risks is crucial for proactive supply chain management.
+
+2.1. Climate Profile and Local Disruptions:
+    a. Monsoon Season (Typically June - September):
+        i. Road Network Impact: Intense, prolonged rainfall can lead to severe waterlogging, flash floods, and damage to road infrastructure, particularly on secondary routes. This directly impacts transit times from supplier plants and last-mile delivery to retail outlets.
+        ii. Vehicle Mobility: Reduced visibility for drivers, increased risk of breakdowns, and traffic slowdowns degrade delivery efficiency.
+        iii. Labor Availability: Heavy rains disrupt warehouse team attendance, impacting inbound unloading timelines.
+        iv. Product Integrity Risk: External moisture entry breaks down outer master cases, transferring vertical load down to single thin plastic bottles, causing lower row pouch fractures and widespread pallet mess.
+    b. Peak Summer Demand & Temperatures (Typically April - June):
+        i. Elevated Demand: Hyderabad experiences extremely hot summers, accelerating consumer staple stock acquisition across major retail hubs. This places high replenishment volume strains on RDC frameworks.
+        ii. Supply Chain Strain: Increased demand coincides with ambient temperatures frequently exceeding 40°C (104°F). Intense thermal traps inside stagnant cargo bays trigger fluid oil expansion, forcing micro-seepage through neck ring junctions.
+        iii. Logistics Challenges: High temperatures increase breakdown probabilities across cross-country delivery lines.
+        iv. Congestion: Urban traffic jams amplify regional safety stock depletion frequencies.
+
+2.2. Alteration of Fulfillment Capacity:
+    These regional vulnerabilities directly reduce the effective fulfillment capacity for Sunflower Oil 1L through:
+    a. Reduced On-Time Delivery (OTD): Increased transit times and operational delays inevitably lead to lower OTD rates to the RDC and onward to retailers.
+    b. Higher Stockout Risk: The combination of high steady cooking commodity demand and potential leak contamination rejections significantly elevates stockout occurrences.
+    c. Increased Operational Costs: Contingency measures such as expedited shipping, heavy-duty double shrink-wrapping, separate heavy vans, or increased buffer stock inherently raise logistics costs.
+    d. Quality Compliance Risk: Prolonged exposure to non-optimal conditions can compromise product lipid shelf-life, potentially leading to returns or brand reputation damage.
+
+***
+
+3. CONTINGENCY STRATEGY:
+
+This section defines the emergency procurement actions to be initiated if safety stock levels for Sunflower Oil 1L at the Hyderabad RDC drop critically due to unforeseen disruptions or demand spikes.
+
+3.1. Critical Safety Stock Trigger:
+    Emergency procurement actions will be triggered when the available safety stock of Sunflower Oil 1L at the Hyderabad RDC falls below 5 days of projected sales demand AND the next scheduled inbound shipment is confirmed to be delayed beyond its standard 6-day lead time. This threshold represents an immediate threat to service levels and requires rapid intervention.
+
+3.2. Emergency Procurement Actions:
+    Upon activation of the Critical Safety Stock Trigger, the following hierarchical actions will be implemented:
+
+    a. Tier 1: Intra-Regional Stock Transfer (First Priority - within 24 hours):
+        i. Authorization: Regional Supply Chain Manager (Hyderabad) with immediate notification to National Logistics Head.
+        ii. Action: Identify nearest approved RDCs with surplus stock of Sunflower Oil 1L. Initiate immediate transfer via dedicated, expedited truck.
+        iii. Logistics: Prioritize carriers with proven emergency response capabilities. Secure appropriate rigid, heavy-duty vehicles to minimize transit time and prevent shifting damage.
+        iv. Cost Protocol: Expedited freight costs for Tier 1 actions are to be logged against the designated emergency budget code: EMER-BUD-SKU-017.
+
+    b. Tier 2: Expedited Procurement from Primary Supplier (If Tier 1 is insufficient or infeasible - within 48 hours):
+        i. Authorization: National Logistics Head and Procurement Director.
+        ii. Action: Engage primary supplier for an emergency production run (if feasible) or expedited dispatch from their finished goods inventory. Request for a 1-2 business day lead time.
+        iii. Logistics: Mandate dedicated, non-stop ground transport (team drivers) using rigid steel container configurations.
+        iv. Cost Protocol: Expedited production/freight premiums associated with Tier 2 actions require explicit approval from the Procurement Director and are subject to detailed cost-benefit analysis post-event.
+
+    c. Tier 3: Third-Party/Alternative Supplier Sourcing (Last Resort - within 72 hours):
+        i. Authorization: Executive Leadership (VP Supply Chain, VP Procurement).
+        ii. Action: Engage pre-vetted and approved third-party suppliers or alternative manufacturing sites capable of producing Sunflower Oil 1L to our specifications.
+        iii. Due Diligence: Sourcing alternatives must undergo rapid viscosity, clarification, and seal safety profile checks.
+        iv. Cost Protocol: Sourcing from Tier 3 suppliers often incurs significantly higher costs and requires executive-level approval due to potential impact on long-term supplier relationships and higher unit costs.
+
+3.3. Communication and Reporting:
+    a. Immediate Alert: The Hyderabad RDC Manager must immediately inform the Regional Supply Chain Manager, National Logistics Head, and relevant Sales & Marketing teams upon trigger activation.
+    b. Daily Updates: A daily incident report detailing stock levels, incoming shipment ETAs, and actions taken must be circulated to the executive supply chain team until safety stock levels are restored to normal operating parameters (7+ days of supply).
+    c. Post-Event Analysis: A comprehensive Root Cause Analysis (RCA) must be conducted within 7 business days of stock normalization to identify the underlying reasons for the critical drop and recommend preventative measures or SOP updates.
+================================================================================

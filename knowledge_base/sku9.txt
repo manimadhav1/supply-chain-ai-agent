@@ -1,0 +1,97 @@
+================================================================================
+GLOBAL SUPPLY CHAIN DOCUMENTATION
+STANDARD OPERATING PROCEDURE (SOP) & SUPPLIER AGREEMENT ADDENDUM
+================================================================================
+
+PRODUCT SKU: Amul Butter 500g (ID: SKU-009)
+PRODUCT PROFILE: Cold Chain Controls (Dairy - Butter)
+DISTRIBUTION HUB: Hyderabad Regional Distribution Center (RDC)
+STANDARD LOGISTICS LEAD TIME: 2 business days (Ex-Works Supplier Plant to Hyderabad RDC)
+REGIONAL ENVIRONMENTAL VULNERABILITY: High Risk of Seasonal Disruption
+
+***
+
+1. LOGISTICS & DISTRIBUTION CONTRACT:
+
+This section outlines the primary guidelines for all logistics and distribution partners involved in the supply of Amul Butter 500g to the Hyderabad Regional Distribution Center (RDC). Adherence to these guidelines is critical for avoiding lipid melting, preventing fat phase separation under thermal spikes, and maintaining strict cold chain continuity.
+
+1.1. Primary Supplier Guidelines:
+    a. Product Specification: All deliveries must consist solely of Amul Butter 500g as per internal product code SKU-009.
+    b. Standard Lead Time: The agreed standard logistics lead time is 2 business days from the official Purchase Order (PO) confirmation to successful delivery at the Hyderabad RDC.
+    c. Delivery Schedule: Deliveries must adhere to the pre-scheduled delivery windows communicated by the Hyderabad RDC inbound logistics team. Any deviation requires prior approval.
+    d. Cold Chain and Temperature Control: Product must be transported under strict temperature-controlled frozen/chilled conditions. Active refrigeration is mandatory. Cargo compartments must be set and maintained continuously at -4°C to 4°C (24°F–39°F). Internal temperatures must never exceed 8°C (46°F) during transit or cross-docking to prevent structural melting and rancidity.
+    e. Quality Assurance: Upon receipt, product will undergo mandatory digital data logger temperature inspection. Physical inspection will verify that paper wrapping has no grease spots or oil bleed indications. Discrepancies will be documented and reported within 24 hours.
+    f. Documentation: All shipments must be accompanied by accurate packing lists, delivery challans, and a continuous automated temperature log graph.
+
+1.2. Logistics Buffers for Hyderabad Region:
+    In recognition of the Hyderabad region's high environmental vulnerability, specific adjustments to logistics buffers are mandatory under defined conditions:
+    a. Trigger Conditions:
+        i. Temperature Peaks: When the Indian Meteorological Department (IMD) or an equivalent accredited regional weather authority issues an advisory forecasting sustained ambient temperatures above 38°C (100.4°F) for Hyderabad and its surrounding transit routes for more than 24 hours.
+        ii. Extreme Weather Events: When the IMD or equivalent authority issues warnings for heavy rainfall (monsoon season), flooding, cyclones, or severe thunderstorms impacting Hyderabad or major transit corridors leading to it.
+    b. Increased Buffer Actions (Supplier & Logistics Partner Responsibilities):
+        i. Extended Lead Time: An additional one (1) business day buffer must be automatically applied to the standard lead time, extending it to 3 business days. This allows for potential transit delays and re-routing.
+        ii. Vehicle Specification: All transport vehicles must be fully enclosed refrigerated trucks (reefers) equipped with functional, pre-tested cooling units, tightly fitted insulated door seals, and backup generator power.
+        iii. Pre-cooling/Staging: Product must be pre-chilled to below 0°C prior to vehicle loading. Loading bays must utilize absolute sealed thermal cushions to block outside hot air infiltration.
+        iv. Communication Frequency: Logistics partners must increase communication frequency with the Hyderabad RDC inbound team, providing hourly updates on shipment status, GPS location, and real-time reefer internal temperature readouts.
+        v. Route Prioritization: Logistics partners are required to utilize primary, well-maintained arterial routes known for resilience during adverse weather, even if slightly longer.
+
+***
+
+2. REGIONAL RISK FACTOR:
+
+The Hyderabad region, while a critical distribution hub, presents distinct environmental and demand-related challenges that specifically alter fulfillment capacity for Amul Butter 500g. Understanding these risks is crucial for proactive supply chain management.
+
+2.1. Climate Profile and Local Disruptions:
+    a. Monsoon Season (Typically June - September):
+        i. Road Network Impact: Intense, prolonged rainfall can lead to severe waterlogging, flash floods, and damage to road infrastructure, particularly on secondary routes. This directly impacts transit times from supplier plants and last-mile delivery to retail outlets.
+        ii. Vehicle Mobility: Reduced visibility for drivers, increased risk of breakdowns, and general traffic slowdowns significantly degrade delivery efficiency and increase transit duration.
+        iii. Labor Availability: Heavy rains can disrupt daily commutes, leading to absenteeism among RDC staff, loading/unloading personnel, and delivery drivers, thereby reducing operational capacity.
+        iv. Product Integrity Risk: Extended transit delays on flooded access highways increase reefer engine run-time, risking complete fuel exhaustion and catastrophic stock loss if thermal control drops out.
+    b. Peak Summer Demand & Temperatures (Typically April - June):
+        i. Elevated Demand: Hyderabad experiences extremely hot summers, creating a seasonal surge in milk and dairy derivative item consumption. This places immense pressure on existing stock levels and replenishment cycles.
+        ii. Supply Chain Strain: Increased demand coincides with ambient temperatures frequently exceeding 40°C (104°F). Under these settings, even a 30-minute reefer failure leads to irreversible oil separation and product spoilage.
+        iii. Logistics Challenges: High temperatures cause extreme thermal strain to refrigeration compressor units, increasing the likelihood of component breakdowns and delivery delays.
+        iv. Congestion: Peak summer traffic gridlock exacerbates on-time delivery performance risk.
+
+2.2. Alteration of Fulfillment Capacity:
+    These regional vulnerabilities directly reduce the effective fulfillment capacity for Amul Butter 500g through:
+    a. Reduced On-Time Delivery (OTD): Increased transit times and operational delays inevitably lead to lower OTD rates to the RDC and onward to retailers.
+    b. Higher Stockout Risk: The combination of soaring summer dairy demand and high thermal transit vulnerability significantly elevates the risk of stockouts.
+    c. Increased Operational Costs: Contingency measures such as expedited refrigerated shipping premiums, heavy reefer fuel consumption charges, or increased safety stock inherently raise logistics costs.
+    d. Quality Compliance Risk: Prolonged exposure to non-optimal temperatures causes permanent lipid texture compromise, leading to total product rejection.
+
+***
+
+3. CONTINGENCY STRATEGY:
+
+This section defines the emergency procurement actions to be initiated if safety stock levels for Amul Butter 500g at the Hyderabad RDC drop critically due to unforeseen disruptions or demand spikes.
+
+3.1. Critical Safety Stock Trigger:
+    Emergency procurement actions will be triggered when the available safety stock of Amul Butter 500g at the Hyderabad RDC falls below 5 days of projected sales demand AND the next scheduled inbound shipment is confirmed to be delayed beyond its standard 2-day lead time. This threshold represents an immediate threat to service levels and requires rapid intervention.
+
+3.2. Emergency Procurement Actions:
+    Upon activation of the Critical Safety Stock Trigger, the following hierarchical actions will be implemented:
+
+    a. Tier 1: Intra-Regional Stock Transfer (First Priority - within 24 hours):
+        i. Authorization: Regional Supply Chain Manager (Hyderabad) with immediate notification to National Logistics Head.
+        ii. Action: Identify nearest approved RDCs with surplus stock of Amul Butter 500g. Initiate immediate transfer via dedicated, expedited reefer truck.
+        iii. Logistics: Prioritize carriers with proven cold-chain emergency capabilities. Secure appropriate refrigerated vehicles to minimize transit time and maintain product quality.
+        iv. Cost Protocol: Expedited freight costs for Tier 1 actions are to be logged against the designated emergency budget code: EMER-BUD-SKU-009.
+
+    b. Tier 2: Expedited Procurement from Primary Supplier (If Tier 1 is insufficient or infeasible - within 48 hours):
+        i. Authorization: National Logistics Head and Procurement Director.
+        ii. Action: Engage primary supplier for an emergency production run (if feasible) or expedited dispatch from their finished goods inventory. Request for a 1-day business lead time.
+        iii. Logistics: Mandate dedicated, non-stop ground transport (team drivers) using certified reefer units with maximum fuel provisioning.
+        iv. Cost Protocol: Expedited production/freight premiums associated with Tier 2 actions require explicit approval from the Procurement Director and are subject to detailed cost-benefit analysis post-event.
+
+    c. Tier 3: Third-Party/Alternative Supplier Sourcing (Last Resort - within 72 hours):
+        i. Authorization: Executive Leadership (VP Supply Chain, VP Procurement).
+        ii. Action: Engage pre-vetted and approved third-party suppliers or alternative manufacturing sites capable of producing Amul Butter 500g to our specifications.
+        iii. Due Diligence: Sourcing alternatives must match exact dairy pasteurization standards and possess verified cold-custody audit compliance records.
+        iv. Cost Protocol: Sourcing from Tier 3 suppliers often incurs significantly higher costs and requires executive-level approval due to potential impact on long-term supplier relationships and higher unit costs.
+
+3.3. Communication and Reporting:
+    a. Immediate Alert: The Hyderabad RDC Manager must immediately inform the Regional Supply Chain Manager, National Logistics Head, and relevant Sales & Marketing teams upon trigger activation.
+    b. Daily Updates: A daily incident report detailing stock levels, incoming shipment ETAs, and actions taken must be circulated to the executive supply chain team until safety stock levels are restored to normal operating parameters (7+ days of supply).
+    c. Post-Event Analysis: A comprehensive Root Cause Analysis (RCA) must be conducted within 7 business days of stock normalization to identify the underlying reasons for the critical drop and recommend preventative measures or SOP updates.
+================================================================================
