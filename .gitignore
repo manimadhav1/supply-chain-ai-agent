@@ -4,10 +4,5 @@
 __pycache__/
 *.pyc
 
-RAG/chroma_db/
-chroma_db/
-vector_db/
 
-.streamlit/
 
-*.sqlite3
