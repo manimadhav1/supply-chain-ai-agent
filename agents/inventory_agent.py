@@ -4,7 +4,8 @@ from tools.inventory_tool import inventory_tool
 def inventory_agent(state):
 
     inventory = inventory_tool(
-        state["sku"]
+        state["sku"],
+        state.get("region")
     )
 
     state["inventory"] = inventory

@@ -6,37 +6,19 @@ def demand_agent(state):
     forecast = forecast_tool(
         sku=state["sku"],
         region=state["region"],
-        temp=state["temp"],
-        promo=state["promo"],
-        event=state["event"],
+        temp=state.get("temp", 0),
+        promo=state.get("promo", 0),
+        event=state.get("event", 0),
         month=state["month"],
-        dayofweek=state["dayofweek"]
+        dayofweek=state["dayofweek"],
+        channel=state.get("channel", "Unknown")
     )
 
-    boost = float(
-        state.get(
-            "demand_boost",
-            0
-        ) or 0
-    )
-    
-    
+    # Keep optional demand boost as a separate adjustment, not the core model output.
+    boost = float(state.get("demand_boost", 0) or 0)
+    adjusted_forecast = forecast * (1 + boost / 100)
 
-#till here ^
-    adjusted_forecast = (
-        forecast *
-        (1 + boost/100)
-    )
+    state["forecast"] = float(round(adjusted_forecast, 2))
 
-    state["forecast"] = float(
-        round(
-            adjusted_forecast,
-            2
-        )
-    )
-
-    print(
-        f"[Demand Agent] Forecast = {state['forecast']}"
-    )
-
+    print(f"[Demand Agent] Forecast = {state['forecast']}")
     return state

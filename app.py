@@ -1,5 +1,6 @@
 from copilot import ask_copilot
 #{neeraj_k} made changes to this file.
+import datetime
 import streamlit as st
 import pandas as pd
 
@@ -50,21 +51,28 @@ with tab1:
         sku = st.selectbox(
             "SKU",
             [
-                "Coke500",
-                "Sprite500",
-                "Fanta500",
-                "ThumsUp500"
+                "SKU-001",
+                "SKU-002",
+                "SKU-003",
+                "SKU-004",
+                "SKU-005"
             ]
         )
 
         region = st.selectbox(
             "Region",
             [
-                "Bangalore",
-                "Chennai",
-                "Mumbai",
-                "Hyderabad"
+                "East",
+                "North",
+                "South",
+                "West",
+                "Central"
             ]
+        )
+
+        forecast_date = st.date_input(
+            "Forecast Date",
+            value=datetime.date.today()
         )
 
         temp = st.slider(
@@ -75,6 +83,18 @@ with tab1:
         )
 
     with col2:
+
+        channel = st.selectbox(
+            "Channel",
+            [
+                "General Trade",
+                "HoReCa",
+                "E-Commerce",
+                "Modern Trade",
+                "Wholesale"
+            ],
+            index=0
+        )
 
         promo = st.selectbox(
             "Promotion Running?",
@@ -169,13 +189,14 @@ with tab1:
 
             "sku": sku,
             "region": region,
+            "channel": channel,
 
             "temp": temp,
             "promo": promo,
             "event": event,
 
-            "month": 6,
-            "dayofweek": 5,
+            "month": int(forecast_date.month),
+            "dayofweek": int(forecast_date.weekday()),
 
             "sales_note": sales_note,
 
