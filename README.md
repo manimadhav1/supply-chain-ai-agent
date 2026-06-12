@@ -1,18 +1,18 @@
 Future Improvements:
 
-Integrate real-time ERP/WMS data instead of relying on static datasets.
+1.Integrate real-time ERP/WMS data instead of relying on static datasets.
 
-Expand RAG to support multiple enterprise data sources simultaneously.
+2.Expand RAG to support multiple enterprise data sources simultaneously.
 
-Improve forecasting accuracy using advanced models such as XGBoost, LightGBM, or LSTM.
+3.Improve forecasting accuracy using advanced models such as XGBoost, LightGBM, or LSTM.
 
-Add autonomous agent workflows for replenishment planning and risk mitigation.
+4.Add autonomous agent workflows for replenishment planning and risk mitigation.
 
-Implement automated notifications (Telegram, Email, Teams) for stockout and inventory risk alerts.
+5.Implement automated notifications (Telegram, Email, Teams) for stockout and inventory risk alerts.
 
-Introduce role-based dashboards and visual analytics for planners and managers.
+6.Introduce role-based dashboards and visual analytics for planners and managers.
 
-Enhance explainability by showing the reasoning and data sources behind recommendations.
+7.Enhance explainability by showing the reasoning and data sources behind recommendations.
 
 Key Learning:
 
