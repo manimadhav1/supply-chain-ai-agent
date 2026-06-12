@@ -10,12 +10,17 @@ collection = client.get_collection(
 )
 
 @lru_cache(maxsize=100)
-def retrieve(query, n_results=3):
-
+def retrieve(query, n_results=5):
     results = collection.query(
         query_texts=[query],
-        n_results=n_results
+        n_results=n_results,
+        include=["documents", "metadatas"]
     )
 
-    return results["documents"][0]
-    #change made
+    docs = []
+    for document, metadata in zip(results["documents"][0], results["metadatas"][0]):
+        docs.append({
+            "document": document,
+            "metadata": metadata
+        })
+    return docs
