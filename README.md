@@ -1,31 +1,11 @@
-Dataset Required
-What exact features are required in the dataset
+Future Improvements
+Integrate real-time ERP/WMS data instead of relying on static datasets.
+Expand RAG to support multiple enterprise data sources simultaneously.
+Improve forecasting accuracy using advanced models such as XGBoost, LightGBM, or LSTM.
+Add autonomous agent workflows for replenishment planning and risk mitigation.
+Implement automated notifications (Telegram, Email, Teams) for stockout and inventory risk alerts.
+Introduce role-based dashboards and visual analytics for planners and managers.
+Enhance explainability by showing the reasoning and data sources behind recommendations.
+Key Learning
 
-
-Who are we building it for?
-->Lets assume its for a sales team of a company that manage the operations behind supply chain
-
-Demand Forecasting:
-->Agent that retrieves data and can forecast different scenarios based on dataset and data from the User
-
-RAG-I ( Business Standpoint)
-Suggestions and Guidelines for company. 
-Company SOP
-Helps from business perspective of RAG
-What is it trying to answer->Scan guidelines. Recommendations Based on scenarios to improve supply chain process based on rules and protocols
-
-1st Interface is for a Recommendation Engine for the user to get an Idea
-2nd interface is a RAG based Chat Arena between the user and the agent based on the recommendation and forecast data along with the main dataset to retrieve and answer specific user queries
-
-RAG-2(User 
-User Chat Area
-Retrieve information from Dataset as per user requirements.
-Suggest recommendation on user prompt
-User Story:
-What stock has been bought the most?
-What stock needs replenishment?
-What is the future direction from here?
-
-
-
-
+This prototype successfully demonstrates how RAG, forecasting, and LLMs can work together for supply chain decision support, while highlighting the importance of data quality, real-time integration, and automation for production-scale deployment.
