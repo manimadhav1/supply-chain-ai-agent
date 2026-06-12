@@ -1,12 +1,20 @@
 import pandas as pd
 
-# Load datasets
+# ========================================
+# LOAD DATASETS
+# ========================================
+
 sales = pd.read_csv("data/sales.csv")
 inventory = pd.read_csv("data/inventory.csv")
 notes = pd.read_csv("data/sales_notes.csv")
 
-memory = []
+# Product master dataset
+product_master = pd.read_excel(
+    "data/FMCG_DemandForecasting_Dataset.xlsx",
+    header=1
+)
 
+memory = []
 record_id = 1
 
 # ========================================
@@ -51,7 +59,8 @@ for sku, avg_sales in sku_avg.items():
         "record_id": record_id,
         "record_type": "avg_sales",
         "sku": sku,
-        "document": f"Average daily sales for {sku} are {round(avg_sales)} units."
+        "document":
+        f"Average daily sales for {sku} are {round(avg_sales)} units."
     })
 
     record_id += 1
@@ -170,8 +179,8 @@ for sku in sales["sku"].unique():
     })
 
     record_id += 1
-# here-PRINT AND ADD MODIFICATIONS
-    # ========================================
+
+# ========================================
 # HIGHEST SELLING SKU
 # ========================================
 
@@ -225,7 +234,6 @@ memory.append({
 
 record_id += 1
 
-
 lowest_stock = inventory.loc[
     inventory["stock"].idxmin()
 ]
@@ -266,7 +274,7 @@ for _, row in monthly.iterrows():
 
     record_id += 1
 
-    # ========================================
+# ========================================
 # PRODUCT COMPARISON
 # ========================================
 
@@ -295,6 +303,39 @@ for i in range(len(sku_list)):
         })
 
         record_id += 1
+
+# ========================================
+# PRODUCT MASTER DATA (EXCEL)
+# ========================================
+
+for _, row in product_master.iterrows():
+
+    memory.append({
+        "record_id": record_id,
+        "record_type": "product_master",
+        "sku": str(row.get("SKU ID", "")),
+        "document":
+        f"""
+        Product {row.get('Product Name', '')}
+        belongs to category {row.get('Category', '')}
+        and sub-category {row.get('Sub-Category', '')}.
+
+        Unit cost is ₹{row.get('Unit Cost (₹)', '')}.
+        Selling price is ₹{row.get('Selling Price (₹)', '')}.
+
+        Lead time is {row.get('Lead Time (Days)', '')} days.
+        Minimum order quantity is {row.get('Min Order Qty', '')}.
+
+        Reorder point is {row.get('Reorder Point', '')}.
+        Safety stock is {row.get('Safety Stock', '')}.
+
+        Shelf life is {row.get('Shelf Life (Days)', '')} days.
+
+        Margin band is {row.get('Margin Band', '')}.
+        """
+    })
+
+    record_id += 1
 
 # ========================================
 # SAVE MEMORY
