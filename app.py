@@ -110,9 +110,10 @@ hr {{ border-color: {border}; opacity: 0.5; }}
 [data-testid="stMetricDelta"] {{ font-size: 12px; }}
 .stButton > button {{ background: {card_bg}; color: {text_pri}; border: 1px solid {border}; border-radius: 8px; font-size: 14px; font-weight: 500; padding: 8px 18px; transition: all 0.15s; }}
 .stButton > button:hover {{ background: {hover}; border-color: {accent}; color: {accent}; }}
-.nav-btn button {{ width:100% !important; text-align:left !important; background:transparent !important; border:none !important; border-radius:8px !important; color:{text_sec} !important; font-size:15px !important; font-weight:500 !important; padding:11px 14px !important; margin-bottom:2px !important; transition:background 0.15s, color 0.15s !important; letter-spacing:0.1px !important; }}
+.nav-btn button {{ width:100% !important; text-align:left !important; background:transparent !important; border:none !important; border-radius:8px !important; color:{text_sec} !important; font-size:15px !important; font-weight:500 !important; padding:7px 14px !important; margin-bottom:0px !important; transition:background 0.15s, color 0.15s !important; letter-spacing:0.1px !important; }}
 .nav-btn button:hover {{ background:{hover} !important; color:{text_pri} !important; }}
 .nav-btn-active button {{ background:{hover} !important; color:{accent} !important; border-left:3px solid {accent} !important; font-weight:600 !important; padding-left:11px !important; }}
+section[data-testid="stSidebar"] .stButton {{ margin-bottom:0 !important; }}
 .stSelectbox > div > div {{ background: {input_bg}; border-color: {border}; color: {text_pri}; border-radius: 8px; }}
 .stTextInput > div > div > input {{ background: {input_bg}; border-color: {border}; color: {text_pri}; border-radius: 8px; }}
 .stTextArea > div > div > textarea {{ background: {input_bg}; border-color: {border}; color: {text_pri}; border-radius: 8px; }}
@@ -140,15 +141,15 @@ if "active_page" not in st.session_state:
 
 with st.sidebar:
     st.markdown(
-        f'<div style="padding:16px 16px 18px 16px; border-bottom:1px solid {border}; margin-bottom:12px;">'
-        f'<div style="font-size:32px; font-weight:900; color:{text_pri}; letter-spacing:-1px; line-height:1.1;">📦 SupplyAI</div>'
-        f'<div style="font-size:12px; color:{text_sec}; margin-top:5px; letter-spacing:0.5px;">Intelligent Supply Chain Copilot</div>'
+        f'<div style="padding:10px 16px 14px 16px; border-bottom:1px solid {border}; margin-bottom:8px;">'
+        f'<div style="font-size:36px; font-weight:900; color:{text_pri}; letter-spacing:-1.5px; line-height:1;">📦 SupplyAI</div>'
+        f'<div style="font-size:11px; color:{text_sec}; margin-top:4px; letter-spacing:0.8px; opacity:0.75;">Intelligent Supply Chain Copilot</div>'
         f'</div>',
         unsafe_allow_html=True
     )
 
     st.markdown(
-        f'<div style="font-size:10px; color:{text_sec}; letter-spacing:2px; padding:4px 4px 8px 4px; text-transform:uppercase; font-weight:700; opacity:0.6;">Menu</div>',
+        f'<div style="font-size:9px; color:{text_sec}; letter-spacing:2.5px; padding:6px 14px 4px 14px; text-transform:uppercase; font-weight:700; opacity:0.5;">Menu</div>',
         unsafe_allow_html=True
     )
 
@@ -180,22 +181,25 @@ with st.sidebar:
         mape_color, mape_label = "#e94560", "Low Confidence"
 
     st.markdown(
-        f'<div style="border-top:1px solid {border}; margin:16px 0 14px 0;"></div>'
-        f'<div style="background:{card_bg}; border:1px solid {border}; border-left:4px solid {mape_color}; border-radius:10px; padding:14px 16px; margin-bottom:16px;">'
-        f'<div style="font-size:10px; color:{text_sec}; letter-spacing:1px; text-transform:uppercase; font-weight:700; margin-bottom:6px; opacity:0.7;">AI Model Accuracy</div>'
-        f'<div style="font-size:26px; font-weight:800; color:{mape_color}; letter-spacing:-0.5px;">MAPE {mape}%</div>'
-        f'<div style="font-size:12px; color:{text_sec}; margin-top:4px;">{mape_label} · XGBoost v2</div>'
+        f'<div style="border-top:1px solid {border}; margin:12px 0 12px 0;"></div>'
+        f'<div style="background:{card_bg}; border:1px solid {border}; border-left:4px solid {mape_color}; border-radius:10px; padding:12px 14px; margin:0 0 8px 0;">'
+        f'<div style="font-size:10px; color:{text_sec}; letter-spacing:1px; text-transform:uppercase; font-weight:700; margin-bottom:4px; opacity:0.7;">AI Model Accuracy</div>'
+        f'<div style="font-size:24px; font-weight:800; color:{mape_color}; letter-spacing:-0.5px;">MAPE {mape}%</div>'
+        f'<div style="font-size:11px; color:{text_sec}; margin-top:2px;">{mape_label} · XGBoost v2</div>'
         f'</div>',
         unsafe_allow_html=True
     )
 
-    st.markdown("<div style='flex:1'></div>", unsafe_allow_html=True)
-
+    # Powered by — pinned to absolute bottom via CSS injected here
     st.markdown(
-        f'<div style="position:absolute; bottom:20px; left:16px; right:16px; border-top:1px solid {border}; padding-top:14px;">'
-        f'<div style="font-size:11px; color:{text_sec}; line-height:2; opacity:0.65;">'
+        f'<style>section[data-testid="stSidebar"] > div:first-child {{ display:flex; flex-direction:column; height:100%; }}'
+        f'.sidebar-footer {{ margin-top:auto; border-top:1px solid {border}; padding:14px 14px 10px 14px; }}'
+        f'</style>'
+        f'<div class="sidebar-footer">'
+        f'<div style="font-size:10px; color:{text_sec}; opacity:0.6; line-height:1.9;">'
         f'Powered by<br>'
-        f'<span style="color:{accent}; font-weight:600;">Gemini 2.5 Flash</span> · XGBoost · LangGraph'
+        f'<span style="color:{accent}; font-weight:600; opacity:1;">Gemini 2.5 Flash</span><br>'
+        f'XGBoost &nbsp;·&nbsp; LangGraph'
         f'</div></div>',
         unsafe_allow_html=True
     )
@@ -229,21 +233,18 @@ if page == "Forecast":
         sku_label = st.selectbox("SKU", list(sku_options.keys()), label_visibility="collapsed")
         sku = sku_options[sku_label]
 
-        st.markdown(_label_help + "City / Zone</div>", unsafe_allow_html=True)
+        st.markdown(_label_help + "Region / Warehouse</div>", unsafe_allow_html=True)
+        # Regions sourced directly from FMCG_DemandForecasting_Dataset.xlsx → Inventory_Snapshot
         _REGION_OPTIONS = {
-            "🏙 Bangalore (South)":            "Bangalore",
-            "🏙 Chennai (South)":              "Chennai",
-            "🏙 Mumbai (West)":                "Mumbai",
-            "🏙 Hyderabad (Central-South)":    "Hyderabad",
-            "🗺 North India — Delhi/NCR":       "Mumbai",
-            "🗺 East India — Kolkata/Odisha":   "Chennai",
-            "🗺 West India — Pune/Ahmedabad":   "Mumbai",
-            "🗺 Central India — Nagpur/Indore": "Hyderabad",
+            "North — Delhi Warehouse":    "Mumbai",
+            "South — Chennai Warehouse":  "Chennai",
+            "East — Kolkata Warehouse":   "Chennai",
+            "West — Mumbai Warehouse":    "Mumbai",
+            "Central — Nagpur Warehouse": "Hyderabad",
         }
         region_label = st.selectbox("Region", list(_REGION_OPTIONS.keys()), label_visibility="collapsed")
         region = _REGION_OPTIONS[region_label]
-        if "🗺" in region_label:
-            st.markdown(f"<div style='font-size:10px; color:{text_sec}; margin-top:-8px; margin-bottom:8px; opacity:0.7;'>↳ using {region} demand model</div>", unsafe_allow_html=True)
+        st.markdown(f"<div style='font-size:10px; color:{text_sec}; margin-top:-8px; margin-bottom:8px; opacity:0.7;'>↳ demand model: {region} zone</div>", unsafe_allow_html=True)
 
     with row1_col2:
         import datetime
@@ -406,38 +407,6 @@ if page == "Forecast":
 
         st.divider()
 
-        # --- PROCUREMENT CARD ---
-        if result["reorder_qty"] > 0:
-            st.markdown(f"<h3>📋 Purchase Order</h3>", unsafe_allow_html=True)
-            _sku_row = _master_df[_master_df["sku_id"] == sku].iloc[0]
-            supplier_lead_days = int(_sku_row["lead_time"])
-            order_date = pd.Timestamp.today().strftime("%d %b %Y")
-            delivery_date = (pd.Timestamp.today() + pd.Timedelta(days=supplier_lead_days)).strftime("%d %b %Y")
-            unit_cost = float(_sku_row["unit_cost"])
-            total_cost = result["reorder_qty"] * unit_cost
-
-            _po_html = (
-                '<div style="border-radius:16px;padding:28px 32px;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 60%,#0f3460 100%);max-width:540px;position:relative;overflow:hidden;">'
-                '<div style="position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,#e94560,#f5a623,#00d2d3);"></div>'
-                '<div style="font-size:11px;color:#a0aec0;margin-bottom:4px;letter-spacing:2px;font-weight:600;">PURCHASE ORDER</div>'
-                f'<div style="font-size:24px;font-weight:800;color:#fff;margin-bottom:24px;">{sku} &nbsp;&middot;&nbsp; <span style="color:#00d2d3;">{region_label}</span></div>'
-                f'<div style="display:inline-block;background:linear-gradient(90deg,#e94560,#c0392b);color:white;font-size:20px;font-weight:800;padding:10px 22px;border-radius:50px;margin-bottom:24px;">&#8377;{int(total_cost):,}</div>'
-                '<div style="font-size:12px;color:#718096;margin-top:-18px;margin-bottom:20px;">Total estimated cost</div>'
-                '<div style="border-top:1px solid #2d3748;margin-bottom:18px;"></div>'
-                '<table style="width:100%;border-collapse:collapse;font-size:14px;">'
-                f'<tr><td style="color:#a0aec0;padding:7px 0;">&#128230; Units to Order</td><td style="font-weight:700;color:#f5a623;text-align:right;">{result["reorder_qty"]:,} units</td></tr>'
-                f'<tr><td style="color:#a0aec0;padding:7px 0;">&#128176; Cost per Unit</td><td style="font-weight:600;color:#e2e8f0;text-align:right;">&#8377;{unit_cost}</td></tr>'
-                f'<tr><td style="color:#a0aec0;padding:7px 0;">&#128197; Order Date</td><td style="font-weight:600;color:#e2e8f0;text-align:right;">{order_date}</td></tr>'
-                f'<tr><td style="color:#a0aec0;padding:7px 0;">&#128666; Arrives By</td><td style="font-weight:600;color:#00d2d3;text-align:right;">{delivery_date}</td></tr>'
-                f'<tr><td style="color:#a0aec0;padding:7px 0;">&#9201; Supplier Lead Time</td><td style="font-weight:600;color:#e2e8f0;text-align:right;">{supplier_lead_days} days</td></tr>'
-                '</table></div>'
-            )
-            st.markdown(_po_html, unsafe_allow_html=True)
-        else:
-            st.success("✅ Stock is sufficient — no purchase order needed right now.")
-
-        st.divider()
-
         # --- RISK ---
         risk = result["risk"]
         st.markdown(f"<h3>🚨 Risk Level</h3>", unsafe_allow_html=True)
@@ -449,49 +418,16 @@ if page == "Forecast":
             "LOW":      ("#25d366", "🟢", "LOW — Stock levels are healthy. No action needed right now."),
         }
         rc = risk_configs.get(risk, risk_configs["LOW"])
-        st.markdown(f"""
-        <div style="background:{card_bg}; border:1px solid {border}; border-left:4px solid {rc[0]};
-             border-radius:8px; padding:16px 20px; display:flex; align-items:center; gap:14px; max-width:600px;">
-            <span style="font-size:28px;">{rc[1]}</span>
-            <div>
-                <div style="font-size:16px; font-weight:700; color:{rc[0]};">{rc[2].split('—')[0].strip()}</div>
-                <div style="font-size:13px; color:{text_sec}; margin-top:2px;">{rc[2].split('—')[1].strip()}</div>
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
+        _risk_title = rc[2].split('—')[0].strip()
+        _risk_desc  = rc[2].split('—')[1].strip()
+        st.markdown(
+            f'<div style="background:{card_bg};border:1px solid {border};border-left:4px solid {rc[0]};border-radius:8px;padding:16px 20px;display:flex;align-items:center;gap:14px;max-width:600px;">'
+            f'<span style="font-size:28px;">{rc[1]}</span>'
+            f'<div><div style="font-size:16px;font-weight:700;color:{rc[0]};">{_risk_title}</div>'
+            f'<div style="font-size:13px;color:{text_sec};margin-top:2px;">{_risk_desc}</div></div></div>',
+            unsafe_allow_html=True
+        )
 
-        if risk in ("CRITICAL", "HIGH"):
-            alert_color = "#e94560" if risk == "CRITICAL" else "#f5a623"
-            alert_label = "🚨 CRITICAL STOCKOUT ALERT" if risk == "CRITICAL" else "⚠️ HIGH RISK ALERT"
-            alert_time = pd.Timestamp.now().strftime("%I:%M %p")
-            st.markdown(f"""
-            <div style="max-width:360px; margin-top:20px;">
-                <div style="background:#1e1e1e; border-radius:16px; overflow:hidden;">
-                    <div style="background:#075e54; padding:12px 18px; display:flex; align-items:center; gap:10px;">
-                        <div style="background:#25d366; border-radius:50%; width:36px; height:36px; display:flex; align-items:center; justify-content:center; font-size:18px;">📦</div>
-                        <div>
-                            <div style="color:#fff; font-weight:700; font-size:14px;">Supply Chain Bot</div>
-                            <div style="color:#a8d5a2; font-size:11px;">Automated Alert System</div>
-                        </div>
-                    </div>
-                    <div style="padding:16px 18px; background:#111b21;">
-                        <div style="background:#202c33; border-radius:12px; border-left:4px solid {alert_color}; padding:14px 16px;">
-                            <div style="color:{alert_color}; font-weight:800; font-size:13px; margin-bottom:10px;">{alert_label}</div>
-                            <div style="color:#e9edef; font-size:13px; line-height:1.7;">
-                                <b>Product:</b> {sku}<br>
-                                <b>City:</b> {region}<br>
-                                <b>Stock lasts:</b> {result['days_cover']} days only<br>
-                                <b>Units short:</b> {round(result['shortage']):,}<br>
-                                <b>Action:</b> Reorder {result['reorder_qty']:,} units immediately
-                            </div>
-                            <div style="margin-top:12px; color:#25d366; font-size:12px; font-weight:600;">✅ Sent to Procurement Team</div>
-                        </div>
-                        <div style="text-align:right; color:#8696a0; font-size:11px; margin-top:8px;">{alert_time} ✓✓</div>
-                    </div>
-                </div>
-                <div style="text-align:center; color:{text_sec}; font-size:11px; margin-top:6px;">WhatsApp Alert Preview</div>
-            </div>
-            """, unsafe_allow_html=True)
 
         st.divider()
 
@@ -553,32 +489,31 @@ if page == "Forecast":
         ]
 
         for i, (icon, name, detail) in enumerate(trail_steps):
-            st.markdown(f"""
-            <div style="display:flex; gap:14px; margin-bottom:8px;">
-                <div style="display:flex; flex-direction:column; align-items:center; gap:0;">
-                    <div style="background:{accent}; color:white; border-radius:50%; width:32px; height:32px;
-                         display:flex; align-items:center; justify-content:center; font-size:14px; flex-shrink:0;">{icon}</div>
-                    {'<div style="width:2px; height:20px; background:' + border + '; margin: 0 auto;"></div>' if i < 4 else ''}
-                </div>
-                <div style="background:{card_bg}; border:1px solid {border}; border-radius:8px;
-                     padding:12px 16px; flex:1; margin-bottom:{'8px' if i < 4 else '0'};">
-                    <div style="font-size:12px; font-weight:600; color:{text_sec}; text-transform:uppercase; letter-spacing:0.5px;">{name}</div>
-                    <div style="font-size:14px; color:{text_pri}; margin-top:4px;">{detail}</div>
-                </div>
-            </div>
-            """, unsafe_allow_html=True)
+            connector = f'<div style="width:2px;height:20px;background:{border};margin:0 auto;"></div>' if i < 4 else ''
+            mb = "8px" if i < 4 else "0"
+            _trail_html = (
+                f'<div style="display:flex;gap:14px;margin-bottom:{mb};">'
+                f'<div style="display:flex;flex-direction:column;align-items:center;gap:0;">'
+                f'<div style="background:{accent};color:white;border-radius:50%;width:32px;height:32px;display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0;">{icon}</div>'
+                f'{connector}</div>'
+                f'<div style="background:{card_bg};border:1px solid {border};border-radius:8px;padding:12px 16px;flex:1;">'
+                f'<div style="font-size:12px;font-weight:600;color:{text_sec};text-transform:uppercase;letter-spacing:0.5px;">{name}</div>'
+                f'<div style="font-size:14px;color:{text_pri};margin-top:4px;">{detail}</div>'
+                f'</div></div>'
+            )
+            st.markdown(_trail_html, unsafe_allow_html=True)
 
         st.divider()
 
         # --- EXECUTIVE SUMMARY ---
         st.markdown(f"<h3>📝 Executive Summary</h3>", unsafe_allow_html=True)
         st.markdown(f"<p style='color:{text_sec}; font-size:13px; margin-bottom:12px;'>Plain-English recommendation written by the AI.</p>", unsafe_allow_html=True)
-        st.markdown(f"""
-        <div style="background:{card_bg}; border:1px solid {border}; border-left:4px solid {accent};
-             border-radius:8px; padding:20px 24px;">
-            <div style="color:{text_pri}; font-size:15px; line-height:1.7;">{result['summary']}</div>
-        </div>
-        """, unsafe_allow_html=True)
+        st.markdown(
+            f'<div style="background:{card_bg};border:1px solid {border};border-left:4px solid {accent};border-radius:8px;padding:20px 24px;">'
+            f'<div style="color:{text_pri};font-size:15px;line-height:1.7;">{result["summary"]}</div>'
+            f'</div>',
+            unsafe_allow_html=True
+        )
 
 
 # ==================================================
@@ -666,9 +601,13 @@ elif page == "Transfer":
             cat_df = inventory_df[inventory_df["category"] == category].copy()
             cat_df["status"] = cat_df["days_cover"].apply(lambda d: "Critical" if d < 5 else ("Low" if d < 10 else "Healthy"))
 
-            heatmap = alt.Chart(cat_df).mark_rect(stroke="#111", strokeWidth=2).encode(
-                x=alt.X("region:N", title="City", axis=alt.Axis(labelFontSize=12, labelAngle=0)),
-                y=alt.Y("product_name:N", title=None, axis=alt.Axis(labelFontSize=12)),
+            _n_products = len(cat_df["product_name"].unique())
+            _cell_h = 52
+            _cell_w = 160
+
+            heatmap = alt.Chart(cat_df).mark_rect(stroke="#0e1117", strokeWidth=3).encode(
+                x=alt.X("region:N", title="Region", axis=alt.Axis(labelFontSize=12, labelAngle=0), scale=alt.Scale(paddingInner=0, paddingOuter=0.05)),
+                y=alt.Y("product_name:N", title=None, axis=alt.Axis(labelFontSize=12), scale=alt.Scale(paddingInner=0, paddingOuter=0.05)),
                 color=alt.Color("days_cover:Q",
                     scale=alt.Scale(domain=[0, 5, 10, 20], range=["#e94560", "#f5a623", "#f5a623", "#25d366"]),
                     title="Days of Stock", legend=None),
@@ -680,14 +619,19 @@ elif page == "Transfer":
                     alt.Tooltip("days_cover:Q", title="Days of Stock Left", format=".1f"),
                     alt.Tooltip("status:N", title="Status")
                 ]
-            ).properties(height=max(120, len(cat_df["product_name"].unique()) * 50))
-
-            text_layer = alt.Chart(cat_df).mark_text(fontWeight="bold", fontSize=14).encode(
-                x=alt.X("region:N"), y=alt.Y("product_name:N"),
-                text=alt.Text("days_cover:Q", format=".0f"), color=alt.value("white")
+            ).properties(
+                width=alt.Step(_cell_w),
+                height=alt.Step(_cell_h)
             )
 
-            st.altair_chart(heatmap + text_layer, use_container_width=True)
+            text_layer = alt.Chart(cat_df).mark_text(fontWeight="bold", fontSize=15).encode(
+                x=alt.X("region:N", scale=alt.Scale(paddingInner=0, paddingOuter=0.05)),
+                y=alt.Y("product_name:N", scale=alt.Scale(paddingInner=0, paddingOuter=0.05)),
+                text=alt.Text("days_cover:Q", format=".0f"),
+                color=alt.value("white")
+            )
+
+            st.altair_chart(heatmap + text_layer, use_container_width=False)
 
             critical_in_cat = cat_df[cat_df["days_cover"] < 5]
             if not critical_in_cat.empty:
