@@ -1,0 +1,21 @@
+sku_id,product_name,category,sub_category,uom,unit_cost,selling_price,lead_time,min_order_qty,shelf_life,reorder_point,safety_stock,gross_margin,margin_band,daily_demand
+SKU-001,Colgate Total Toothpaste 200g,Personal Care,Oral Care,Units,35,75,7,500,730,200,100,0.533333333333333,High,14.3
+SKU-002,Surf Excel Matic 1kg,Home Care,Detergents,Units,120,210,10,300,1095,150,75,0.428571428571429,Medium,7.5
+SKU-003,Maggi 2-Min Noodles 12pk,Food,Instant Food,Packs,85,145,5,600,365,300,150,0.413793103448276,Medium,30.0
+SKU-004,Lays Classic Chips 26g,Snacks,Chips,Units,10,20,3,1000,180,500,250,0.5,Medium,83.3
+SKU-005,Tropicana Orange Juice 1L,Beverages,Juices,Units,65,120,4,400,60,200,100,0.458333333333333,Medium,25.0
+SKU-006,Horlicks 500g,Health & Nutrition,Malt Drinks,Units,180,295,8,250,730,100,50,0.389830508474576,Medium,6.2
+SKU-007,Dettol Handwash 200ml,Personal Care,Hygiene,Units,55,95,6,500,1095,250,125,0.421052631578947,Medium,20.8
+SKU-008,Britannia Good Day 120g,Snacks,Biscuits,Units,25,45,3,800,270,400,200,0.444444444444444,Medium,66.7
+SKU-009,Amul Butter 500g,Dairy,Butter,Units,220,275,2,200,30,150,75,0.2,Low,37.5
+SKU-010,Red Bull Energy 250ml,Beverages,Energy Drinks,Units,90,150,7,400,730,200,100,0.4,Medium,14.3
+SKU-011,Dove Soap Bar 100g,Personal Care,Soap,Units,40,75,6,600,1095,300,150,0.466666666666667,Medium,25.0
+SKU-012,Parle-G Biscuits 800g,Snacks,Biscuits,Units,35,55,3,700,270,350,175,0.363636363636364,Medium,58.3
+SKU-013,Kurkure Masala 90g,Snacks,Chips,Units,15,28,3,900,180,450,225,0.464285714285714,Medium,75.0
+SKU-014,Tata Salt 1kg,Grocery,Salt,Units,20,28,5,1000,1825,400,200,0.285714285714286,Low,40.0
+SKU-015,Clinic Plus Shampoo 340ml,Personal Care,Hair Care,Units,95,165,7,400,1095,200,100,0.424242424242424,Medium,14.3
+SKU-016,Vim Dishwash Bar 250g,Home Care,Dishwash,Units,18,30,5,800,730,400,200,0.4,Medium,40.0
+SKU-017,Sunflower Oil 1L,Grocery,Edible Oil,Units,130,175,6,350,365,175,90,0.257142857142857,Low,14.2
+SKU-018,Fortune Basmati Rice 5kg,Grocery,Rice,Units,280,380,8,200,730,100,50,0.263157894736842,Low,6.2
+SKU-019,Nestlé KitKat 4-Finger,Snacks,Chocolate,Units,30,55,5,600,365,300,150,0.454545454545455,Medium,30.0
+SKU-020,Gillette Fusion Razor,Personal Care,Grooming,Units,250,425,10,200,1825,100,50,0.411764705882353,Medium,5.0

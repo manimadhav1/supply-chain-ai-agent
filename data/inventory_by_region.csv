@@ -1,0 +1,81 @@
+sku_id,product_name,category,region,stock,daily_demand,days_cover
+SKU-001,Colgate Total Toothpaste 200g,Personal Care,Bangalore,29,14.3,2.0
+SKU-001,Colgate Total Toothpaste 200g,Personal Care,Chennai,257,14.3,18.0
+SKU-001,Colgate Total Toothpaste 200g,Personal Care,Mumbai,72,14.3,5.0
+SKU-001,Colgate Total Toothpaste 200g,Personal Care,Hyderabad,200,14.3,14.0
+SKU-002,Surf Excel Matic 1kg,Home Care,Bangalore,120,7.5,16.0
+SKU-002,Surf Excel Matic 1kg,Home Care,Chennai,22,7.5,2.9
+SKU-002,Surf Excel Matic 1kg,Home Care,Mumbai,105,7.5,14.0
+SKU-002,Surf Excel Matic 1kg,Home Care,Hyderabad,38,7.5,5.1
+SKU-003,Maggi 2-Min Noodles 12pk,Food,Bangalore,150,30.0,5.0
+SKU-003,Maggi 2-Min Noodles 12pk,Food,Chennai,420,30.0,14.0
+SKU-003,Maggi 2-Min Noodles 12pk,Food,Mumbai,60,30.0,2.0
+SKU-003,Maggi 2-Min Noodles 12pk,Food,Hyderabad,540,30.0,18.0
+SKU-004,Lays Classic Chips 26g,Snacks,Bangalore,1166,83.3,14.0
+SKU-004,Lays Classic Chips 26g,Snacks,Chennai,416,83.3,5.0
+SKU-004,Lays Classic Chips 26g,Snacks,Mumbai,1499,83.3,18.0
+SKU-004,Lays Classic Chips 26g,Snacks,Hyderabad,250,83.3,3.0
+SKU-005,Tropicana Orange Juice 1L,Beverages,Bangalore,75,25.0,3.0
+SKU-005,Tropicana Orange Juice 1L,Beverages,Chennai,400,25.0,16.0
+SKU-005,Tropicana Orange Juice 1L,Beverages,Mumbai,100,25.0,4.0
+SKU-005,Tropicana Orange Juice 1L,Beverages,Hyderabad,300,25.0,12.0
+SKU-006,Horlicks 500g,Health & Nutrition,Bangalore,12,6.2,1.9
+SKU-006,Horlicks 500g,Health & Nutrition,Chennai,112,6.2,18.1
+SKU-006,Horlicks 500g,Health & Nutrition,Mumbai,31,6.2,5.0
+SKU-006,Horlicks 500g,Health & Nutrition,Hyderabad,87,6.2,14.0
+SKU-007,Dettol Handwash 200ml,Personal Care,Bangalore,333,20.8,16.0
+SKU-007,Dettol Handwash 200ml,Personal Care,Chennai,62,20.8,3.0
+SKU-007,Dettol Handwash 200ml,Personal Care,Mumbai,291,20.8,14.0
+SKU-007,Dettol Handwash 200ml,Personal Care,Hyderabad,104,20.8,5.0
+SKU-008,Britannia Good Day 120g,Snacks,Bangalore,334,66.7,5.0
+SKU-008,Britannia Good Day 120g,Snacks,Chennai,934,66.7,14.0
+SKU-008,Britannia Good Day 120g,Snacks,Mumbai,133,66.7,2.0
+SKU-008,Britannia Good Day 120g,Snacks,Hyderabad,1201,66.7,18.0
+SKU-009,Amul Butter 500g,Dairy,Bangalore,525,37.5,14.0
+SKU-009,Amul Butter 500g,Dairy,Chennai,188,37.5,5.0
+SKU-009,Amul Butter 500g,Dairy,Mumbai,675,37.5,18.0
+SKU-009,Amul Butter 500g,Dairy,Hyderabad,112,37.5,3.0
+SKU-010,Red Bull Energy 250ml,Beverages,Bangalore,43,14.3,3.0
+SKU-010,Red Bull Energy 250ml,Beverages,Chennai,229,14.3,16.0
+SKU-010,Red Bull Energy 250ml,Beverages,Mumbai,57,14.3,4.0
+SKU-010,Red Bull Energy 250ml,Beverages,Hyderabad,172,14.3,12.0
+SKU-011,Dove Soap Bar 100g,Personal Care,Bangalore,50,25.0,2.0
+SKU-011,Dove Soap Bar 100g,Personal Care,Chennai,450,25.0,18.0
+SKU-011,Dove Soap Bar 100g,Personal Care,Mumbai,125,25.0,5.0
+SKU-011,Dove Soap Bar 100g,Personal Care,Hyderabad,350,25.0,14.0
+SKU-012,Parle-G Biscuits 800g,Snacks,Bangalore,933,58.3,16.0
+SKU-012,Parle-G Biscuits 800g,Snacks,Chennai,175,58.3,3.0
+SKU-012,Parle-G Biscuits 800g,Snacks,Mumbai,816,58.3,14.0
+SKU-012,Parle-G Biscuits 800g,Snacks,Hyderabad,292,58.3,5.0
+SKU-013,Kurkure Masala 90g,Snacks,Bangalore,375,75.0,5.0
+SKU-013,Kurkure Masala 90g,Snacks,Chennai,1050,75.0,14.0
+SKU-013,Kurkure Masala 90g,Snacks,Mumbai,150,75.0,2.0
+SKU-013,Kurkure Masala 90g,Snacks,Hyderabad,1350,75.0,18.0
+SKU-014,Tata Salt 1kg,Grocery,Bangalore,560,40.0,14.0
+SKU-014,Tata Salt 1kg,Grocery,Chennai,200,40.0,5.0
+SKU-014,Tata Salt 1kg,Grocery,Mumbai,720,40.0,18.0
+SKU-014,Tata Salt 1kg,Grocery,Hyderabad,120,40.0,3.0
+SKU-015,Clinic Plus Shampoo 340ml,Personal Care,Bangalore,43,14.3,3.0
+SKU-015,Clinic Plus Shampoo 340ml,Personal Care,Chennai,229,14.3,16.0
+SKU-015,Clinic Plus Shampoo 340ml,Personal Care,Mumbai,57,14.3,4.0
+SKU-015,Clinic Plus Shampoo 340ml,Personal Care,Hyderabad,172,14.3,12.0
+SKU-016,Vim Dishwash Bar 250g,Home Care,Bangalore,80,40.0,2.0
+SKU-016,Vim Dishwash Bar 250g,Home Care,Chennai,720,40.0,18.0
+SKU-016,Vim Dishwash Bar 250g,Home Care,Mumbai,200,40.0,5.0
+SKU-016,Vim Dishwash Bar 250g,Home Care,Hyderabad,560,40.0,14.0
+SKU-017,Sunflower Oil 1L,Grocery,Bangalore,227,14.2,16.0
+SKU-017,Sunflower Oil 1L,Grocery,Chennai,43,14.2,3.0
+SKU-017,Sunflower Oil 1L,Grocery,Mumbai,199,14.2,14.0
+SKU-017,Sunflower Oil 1L,Grocery,Hyderabad,71,14.2,5.0
+SKU-018,Fortune Basmati Rice 5kg,Grocery,Bangalore,31,6.2,5.0
+SKU-018,Fortune Basmati Rice 5kg,Grocery,Chennai,87,6.2,14.0
+SKU-018,Fortune Basmati Rice 5kg,Grocery,Mumbai,12,6.2,1.9
+SKU-018,Fortune Basmati Rice 5kg,Grocery,Hyderabad,112,6.2,18.1
+SKU-019,Nestlé KitKat 4-Finger,Snacks,Bangalore,420,30.0,14.0
+SKU-019,Nestlé KitKat 4-Finger,Snacks,Chennai,150,30.0,5.0
+SKU-019,Nestlé KitKat 4-Finger,Snacks,Mumbai,540,30.0,18.0
+SKU-019,Nestlé KitKat 4-Finger,Snacks,Hyderabad,90,30.0,3.0
+SKU-020,Gillette Fusion Razor,Personal Care,Bangalore,15,5.0,3.0
+SKU-020,Gillette Fusion Razor,Personal Care,Chennai,80,5.0,16.0
+SKU-020,Gillette Fusion Razor,Personal Care,Mumbai,20,5.0,4.0
+SKU-020,Gillette Fusion Razor,Personal Care,Hyderabad,60,5.0,12.0

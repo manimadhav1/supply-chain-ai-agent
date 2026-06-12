@@ -1,0 +1,91 @@
+record_id,record_type,sku,document
+1,inventory,Coke500,Current inventory for Coke500 is 4200 units.
+2,inventory,Sprite500,Current inventory for Sprite500 is 3100 units.
+3,inventory,Fanta500,Current inventory for Fanta500 is 5100 units.
+4,inventory,ThumsUp500,Current inventory for ThumsUp500 is 2800 units.
+5,sales_note,Coke500,Retailers expect high IPL demand.
+6,sales_note,Sprite500,Normal demand expected.
+7,sales_note,Fanta500,Summer sales increasing.
+8,sales_note,ThumsUp500,Strong festival demand.
+9,avg_sales,Coke500,Average daily sales for Coke500 are 8614 units.
+10,avg_sales,Fanta500,Average daily sales for Fanta500 are 8180 units.
+11,avg_sales,Sprite500,Average daily sales for Sprite500 are 7839 units.
+12,avg_sales,ThumsUp500,Average daily sales for ThumsUp500 are 7724 units.
+13,best_region,Coke500,Mumbai is the best performing region for Coke500 with average sales of 9459 units.
+14,best_region,Sprite500,Hyderabad is the best performing region for Sprite500 with average sales of 9057 units.
+15,best_region,Fanta500,Chennai is the best performing region for Fanta500 with average sales of 9468 units.
+16,best_region,ThumsUp500,Mumbai is the best performing region for ThumsUp500 with average sales of 9266 units.
+17,peak_sales,Coke500,Highest sales for Coke500 were 12925 units on 2025-11-23.
+18,peak_sales,Sprite500,Highest sales for Sprite500 were 12142 units on 2025-02-23.
+19,peak_sales,Fanta500,Highest sales for Fanta500 were 13450 units on 2025-04-11.
+20,peak_sales,ThumsUp500,Highest sales for ThumsUp500 were 12587 units on 2025-04-15.
+21,promotion_analysis,Coke500,Promotions increase Coke500 sales by approximately 13.7 percent.
+22,promotion_analysis,Sprite500,Promotions increase Sprite500 sales by approximately 13.2 percent.
+23,promotion_analysis,Fanta500,Promotions increase Fanta500 sales by approximately 15.3 percent.
+24,promotion_analysis,ThumsUp500,Promotions increase ThumsUp500 sales by approximately 16.3 percent.
+25,event_analysis,Coke500,Events increase Coke500 sales by approximately 22.9 percent.
+26,event_analysis,Sprite500,Events increase Sprite500 sales by approximately 23.8 percent.
+27,event_analysis,Fanta500,Events increase Fanta500 sales by approximately 23.1 percent.
+28,event_analysis,ThumsUp500,Events increase ThumsUp500 sales by approximately 24.2 percent.
+29,temperature_analysis,Coke500,"When temperatures exceed 35°C, Coke500 sales increase by approximately 9.4 percent."
+30,temperature_analysis,Sprite500,"When temperatures exceed 35°C, Sprite500 sales increase by approximately 11.0 percent."
+31,temperature_analysis,Fanta500,"When temperatures exceed 35°C, Fanta500 sales increase by approximately 10.7 percent."
+32,temperature_analysis,ThumsUp500,"When temperatures exceed 35°C, ThumsUp500 sales increase by approximately 10.6 percent."
+33,top_sku,Coke500,Coke500 is the highest selling SKU with average daily sales of 8614 units.
+34,lowest_sku,ThumsUp500,ThumsUp500 is the lowest selling SKU with average daily sales of 7724 units.
+35,inventory_ranking,Fanta500,Fanta500 currently has the highest inventory with 5100 units.
+36,inventory_ranking,ThumsUp500,ThumsUp500 currently has the lowest inventory with 2800 units.
+37,monthly_trend,Coke500,Average sales for Coke500 in month 1 were 8537 units.
+38,monthly_trend,Coke500,Average sales for Coke500 in month 2 were 8532 units.
+39,monthly_trend,Coke500,Average sales for Coke500 in month 3 were 8565 units.
+40,monthly_trend,Coke500,Average sales for Coke500 in month 4 were 8607 units.
+41,monthly_trend,Coke500,Average sales for Coke500 in month 5 were 8726 units.
+42,monthly_trend,Coke500,Average sales for Coke500 in month 6 were 8549 units.
+43,monthly_trend,Coke500,Average sales for Coke500 in month 7 were 8555 units.
+44,monthly_trend,Coke500,Average sales for Coke500 in month 8 were 8621 units.
+45,monthly_trend,Coke500,Average sales for Coke500 in month 9 were 8686 units.
+46,monthly_trend,Coke500,Average sales for Coke500 in month 10 were 8560 units.
+47,monthly_trend,Coke500,Average sales for Coke500 in month 11 were 8717 units.
+48,monthly_trend,Coke500,Average sales for Coke500 in month 12 were 8706 units.
+49,monthly_trend,Fanta500,Average sales for Fanta500 in month 1 were 8263 units.
+50,monthly_trend,Fanta500,Average sales for Fanta500 in month 2 were 8232 units.
+51,monthly_trend,Fanta500,Average sales for Fanta500 in month 3 were 8187 units.
+52,monthly_trend,Fanta500,Average sales for Fanta500 in month 4 were 8270 units.
+53,monthly_trend,Fanta500,Average sales for Fanta500 in month 5 were 8108 units.
+54,monthly_trend,Fanta500,Average sales for Fanta500 in month 6 were 8168 units.
+55,monthly_trend,Fanta500,Average sales for Fanta500 in month 7 were 8064 units.
+56,monthly_trend,Fanta500,Average sales for Fanta500 in month 8 were 8222 units.
+57,monthly_trend,Fanta500,Average sales for Fanta500 in month 9 were 8126 units.
+58,monthly_trend,Fanta500,Average sales for Fanta500 in month 10 were 8127 units.
+59,monthly_trend,Fanta500,Average sales for Fanta500 in month 11 were 8200 units.
+60,monthly_trend,Fanta500,Average sales for Fanta500 in month 12 were 8202 units.
+61,monthly_trend,Sprite500,Average sales for Sprite500 in month 1 were 7874 units.
+62,monthly_trend,Sprite500,Average sales for Sprite500 in month 2 were 7826 units.
+63,monthly_trend,Sprite500,Average sales for Sprite500 in month 3 were 7853 units.
+64,monthly_trend,Sprite500,Average sales for Sprite500 in month 4 were 7812 units.
+65,monthly_trend,Sprite500,Average sales for Sprite500 in month 5 were 7883 units.
+66,monthly_trend,Sprite500,Average sales for Sprite500 in month 6 were 7762 units.
+67,monthly_trend,Sprite500,Average sales for Sprite500 in month 7 were 7805 units.
+68,monthly_trend,Sprite500,Average sales for Sprite500 in month 8 were 7838 units.
+69,monthly_trend,Sprite500,Average sales for Sprite500 in month 9 were 7828 units.
+70,monthly_trend,Sprite500,Average sales for Sprite500 in month 10 were 7931 units.
+71,monthly_trend,Sprite500,Average sales for Sprite500 in month 11 were 7890 units.
+72,monthly_trend,Sprite500,Average sales for Sprite500 in month 12 were 7768 units.
+73,monthly_trend,ThumsUp500,Average sales for ThumsUp500 in month 1 were 7809 units.
+74,monthly_trend,ThumsUp500,Average sales for ThumsUp500 in month 2 were 7739 units.
+75,monthly_trend,ThumsUp500,Average sales for ThumsUp500 in month 3 were 7681 units.
+76,monthly_trend,ThumsUp500,Average sales for ThumsUp500 in month 4 were 7740 units.
+77,monthly_trend,ThumsUp500,Average sales for ThumsUp500 in month 5 were 7672 units.
+78,monthly_trend,ThumsUp500,Average sales for ThumsUp500 in month 6 were 7746 units.
+79,monthly_trend,ThumsUp500,Average sales for ThumsUp500 in month 7 were 7654 units.
+80,monthly_trend,ThumsUp500,Average sales for ThumsUp500 in month 8 were 7781 units.
+81,monthly_trend,ThumsUp500,Average sales for ThumsUp500 in month 9 were 7697 units.
+82,monthly_trend,ThumsUp500,Average sales for ThumsUp500 in month 10 were 7654 units.
+83,monthly_trend,ThumsUp500,Average sales for ThumsUp500 in month 11 were 7795 units.
+84,monthly_trend,ThumsUp500,Average sales for ThumsUp500 in month 12 were 7720 units.
+85,comparison,Coke500,Coke500 sells 5.3% more than Fanta500.
+86,comparison,Coke500,Coke500 sells 9.9% more than Sprite500.
+87,comparison,Coke500,Coke500 sells 11.5% more than ThumsUp500.
+88,comparison,Fanta500,Fanta500 sells 4.3% more than Sprite500.
+89,comparison,Fanta500,Fanta500 sells 5.9% more than ThumsUp500.
+90,comparison,Sprite500,Sprite500 sells 1.5% more than ThumsUp500.
